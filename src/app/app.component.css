@@ -21,11 +21,12 @@ body {
     height: 50px;
     border: inset 1px;
     background-color: #ccc;
+    overflow: hidden;
 }
 
 button {
     font-size: 30px;
-    width: 75px;
+    /*min-width: 75px;*/
     margin: 5px;
 }
 
