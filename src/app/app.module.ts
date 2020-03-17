@@ -105,5 +105,5 @@ import { MatTreeModule } from '@angular/material/tree';
 })
 export class AppModule { }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+// platformBrowserDynamic().bootstrapModule(AppModule)
+//   .catch(err => console.error(err));
