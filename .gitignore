@@ -1,1 +1,10 @@
 node_modules
+dist/3rdpartylicenses.txt
+dist/index.html
+dist/main-es5.122825905c9b46ce4196.js
+dist/main-es2015.122825905c9b46ce4196.js
+dist/polyfills-es5.ca9c6660228810623f55.js
+dist/polyfills-es2015.ca64e4516afbb1b890d5.js
+dist/runtime-es5.0811dcefd377500b5b1a.js
+dist/runtime-es2015.0811dcefd377500b5b1a.js
+dist/styles.1beec415fb976982779c.css

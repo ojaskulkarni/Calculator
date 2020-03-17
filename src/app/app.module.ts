@@ -7,7 +7,6 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTabsModule } from '@angular/material/tabs';
 import { AppRoutingModule } from './app-routing.module';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { A11yModule } from '@angular/cdk/a11y';
 import { ClipboardModule } from '@angular/cdk/clipboard';
 import { DragDropModule } from '@angular/cdk/drag-drop';
@@ -47,9 +46,11 @@ import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
+import { CalcComponent } from './calc/calc.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalcComponent
   ],
   imports: [
     BrowserModule,
@@ -105,5 +106,3 @@ import { MatTreeModule } from '@angular/material/tree';
 })
 export class AppModule { }
 
-// platformBrowserDynamic().bootstrapModule(AppModule)
-//   .catch(err => console.error(err));
