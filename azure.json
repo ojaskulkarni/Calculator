@@ -1,0 +1,17 @@
+{
+  "hosting": [
+    {
+      "app": {
+        "project": "calculator",
+        "target": "build",
+        "configuration": "production",
+        "path": "dist/"
+      },
+      "azureHosting": {
+        "subscription": "6ee7090c-eb69-4bac-97f3-eb6a6b2be09a",
+        "resourceGroupName": "calculator-static-deploy",
+        "account": "calculatorstatic"
+      }
+    }
+  ]
+}
